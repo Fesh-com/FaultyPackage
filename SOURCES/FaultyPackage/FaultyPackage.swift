@@ -8,6 +8,6 @@ public class FaultyPackage {
     }
 
     public func tryToDebug(_ message: Any = "") {
-        print("\(name:) ", messsage)
+        print("\(name): \(message)")
     }
 }
